@@ -36,8 +36,8 @@ VOLUME /storage
 
 ENV RAM_SIZE "4G"
 ENV CPU_CORES "2"
-ENV DISK_SIZE "70G"
-ENV VERSION "2022"
+ENV DISK_SIZE "100G"
+ENV VERSION "2016"
 ENV KVM "N"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
